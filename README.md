@@ -4,16 +4,21 @@
 
 A simple Node.js Express app that demonstrates basic authentication middleware using a password check. If the correct password is provided, the user gains access to a secret page.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ✨ Features
 
-1.Middleware-based password authentication
+Middleware-based password authentication
 
-2.Request body parsing with body-parser
+Request body parsing with body-parser
 
-3.Simple HTML pages for login and secret content
+Simple HTML pages for login and secret content
 
-4.Easy to run on local server
+Easy to run on local server
+
 Demonstrates Express.js fundamentals
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🖼 Demo Flow
 
@@ -25,6 +30,7 @@ If correct → Secret page unlocks
 
 If incorrect → Redirects back to index page
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🛠 Tech Stack
 
@@ -35,6 +41,8 @@ Express.js
 body-parser
 
 Path
+
+----------
 
 ⚡ Getting Started
 
@@ -54,6 +62,8 @@ node solution.js
 Your app will run at:
 👉 http://localhost:3000
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 📂 File Structure
 .
 ├── public
@@ -65,7 +75,10 @@ Your app will run at:
 
 └── package.json        # Dependencies
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🚀 How It Works
+
 Middleware passwordCheck validates the password.
 
 Correct password: grants access to secret.html.
